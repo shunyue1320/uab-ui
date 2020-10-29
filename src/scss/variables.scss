@@ -1,0 +1,56 @@
+$border-color-hover: #666;
+$border-color: #999;
+$border-color-light: lighten($border-color, 30%);
+$border-radius: 4px;
+$box-shadow-color: rgba(0, 0, 0, 0.5);
+$button-active-bg: #eee;
+$button-bg: white;
+$button-height: 32px;
+$color: #333;
+$light-color: #666;
+$font-size: 14px;
+$small-font-size: 12px;
+$input-height: 32px;
+
+$grey: #eee;
+$blue: #1890ff;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #28a745;
+$teal: #20c997;
+$cyan: #17a2b8;
+$white: #fff;
+$gray: #6c757d;
+$gray-dark: #343a40;
+$primary: #007bff;
+$secondary: #6c757d;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #343a40;
+
+.bg-blue { background-color: $blue !important; }
+.bg-orange { background-color: $orange !important; }
+.bg-green { background-color: $green !important; }
+
+.box-shadow {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.ml { margin-left: 8px; }
+.mt { margin-top: 0.5rem; }
+.mr { margin-right: 0.5rem; }
+.mb { margin-bottom: 0.5rem; }
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@mixin spin {
+  animation: spin 2s infinite linear;
+}
