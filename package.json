@@ -1,7 +1,22 @@
+{
+  "name": "uab-ui",
+  "version": "1.0.0",
+  "description": "A UI components to help developers grow",
+  "author": "shunyue1320",
+  "main": "dist/index.js",
+  "scripts": {
     "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name uab-ui src/index.js",
     "test": "parcel build tests/* --no-cache --no-minify && karma start --single-run",
     "test-dev": "parcel watch tests/* --no-cache & karma start",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
     "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
     "@vue/cli-service": "^4.5.8",
     "@vue/component-compiler-utils": "^3.2.0",
     "chai": "^4.2.0",
@@ -19,3 +34,22 @@
     "sinon": "^9.2.1",
     "sinon-chai": "^3.5.0",
     "vue-template-compiler": "^2.6.12",
+    "vuepress": "^1.5.3"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  },
+  "bugs": {
+    "url": "https://github.com/shunyue1320/uab-ui/issues"
+  },
+  "homepage": "https://github.com/shunyue1320/uab-ui#readme",
+  "keywords": [
+    "vue",
+    "UI"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shunyue1320/uab-ui.git"
+  }
+}
