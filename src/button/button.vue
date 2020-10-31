@@ -17,10 +17,7 @@
       'u-icon': Icon
     },
     props: {
-      icon: {
-        type: String,
-        default: false
-      },
+      icon: {},
       loading: {
         type: Boolean,
         default: false

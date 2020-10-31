@@ -9,7 +9,7 @@
 
   export default {
     name: 'UabIcon',
-    props: [ 'name' ]
+    props: [ 'name', 'color' ]
   }
 </script>
 
@@ -17,6 +17,5 @@
   .u-icon {
     width: 1em;
     height: 1em;
-    fill:#fff;
   }
 </style>
