@@ -5,7 +5,7 @@
 </template>
 <script>
   export default {
-    name: 'UabButtonGroup',
+    name: 'UButtonGroup',
     mounted () {
       for (let node of this.$el.children) {
         let name = node.nodeName.toLowerCase()
@@ -17,7 +17,7 @@
   }
 </script>
 <style lang="scss" scoped>
-@import "../scss/variables";
+@import "../scss/variables.scss";
 .u-button-group {
   display: inline-flex;
 

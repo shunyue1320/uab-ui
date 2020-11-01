@@ -1,7 +1,7 @@
 <template>
   <button class="u-button" :class="`icon-${iconPosition}`" @click="$emit('click')">
-    <u-icon v-if="loading" class="icon loading" name="loading"></u-icon>
-    <u-icon v-if="icon && !loading" class="icon" :name="icon"></u-icon>
+    <u-icon v-if="loading" class="icon loading" :name="icon"></u-icon>
+    <u-icon v-if="icon && !loading" color="dark" class="icon" :name="icon"></u-icon>
     <div class="u-button-content">
       <slot/>
     </div>
@@ -12,7 +12,7 @@
   import Icon from '../icon/icon.vue'
 
   export default {
-    name: 'UabButton',
+    name: 'UButton',
     components: {
       'u-icon': Icon
     },
@@ -33,8 +33,8 @@
   }
 </script>
 
-<style lang="scss" scoped>
-  @import "../scss/variables";
+<style lang="scss" >
+  @import "../scss/variables.scss";
   .u-button {
     font-size: $font-size;
     height: $button-height;
