@@ -5,10 +5,10 @@
 </template>
 
 <script>
-  import './svg'
+  import './svg.js'
 
   export default {
-    name: 'UabIcon',
+    name: 'UIcon',
     props: [ 'name', 'color' ]
   }
 </script>
@@ -17,5 +17,6 @@
   .u-icon {
     width: 1em;
     height: 1em;
+    fill: white;
   }
 </style>
