@@ -26,5 +26,5 @@ title: 简介
 
 - [Github](https://github.com/shunyue1320/uab-ui)
 - 作者：shunyue1320
-- 邮箱：guojianbo6026@163.com 有需要都可以请教！
+- 邮箱：guojianbo6026@163.com 有需要都可以留言！
 - 微信公众号：guojianbo12345 （爱看编程）
