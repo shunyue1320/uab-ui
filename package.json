@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "description": "A UI components to help developers grow",
   "author": "shunyue1320",
-  "main": "dist/index.js",
+  "main": "dist/uab-ui.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name uab-ui src/index.js",
     "test": "parcel build tests/* --no-cache --no-minify && karma start --single-run",
     "test-dev": "parcel watch tests/* --no-cache & karma start",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "dependencies": {
     "vue": "^2.6.12",
@@ -29,6 +30,7 @@
     "karma-sinon-chai": "^2.0.2",
     "mocha": "^8.2.0",
     "parcel-bundler": "^1.12.4",
+    "node-sass": "^5.0.0",
     "sass": "^1.26.10",
     "sass-loader": "^9.0.3",
     "sinon": "^9.2.1",

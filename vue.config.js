@@ -3,7 +3,7 @@ module.exports = {
   css: {
     loaderOptions: {
       sass: {
-        includePaths: [path.join(__dirname, 'src/scss')]
+        additionalData: `@import "~@/scss/variables.scss";`
       },
     }
   },
