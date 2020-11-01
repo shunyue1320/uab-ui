@@ -35,9 +35,21 @@ $danger: #dc3545;
 $light: #f8f9fa;
 $dark: #343a40;
 
+.ic-light { .icon { fill: $light } }
+.ic-blue { .icon { fill: $blue } }
+.ic-dark { .icon { fill: $dark } }
+.ic-orange { .icon { fill: $orange } }
+.ic-warning { .icon { fill: $warning } }
+.ic-info { .icon { fill: $info } }
+.ic-success { .icon { fill: $success } }
+
 .bg-blue { background-color: $blue !important; }
 .bg-orange { background-color: $orange !important; }
 .bg-green { background-color: $green !important; }
+.bg-yellow { background-color: $yellow !important; }
+.bg-cyan { background-color: $cyan !important; }
+.bg-red { background-color: $red !important; }
+.bg-gray { background-color: $gray !important; }
 
 .box-shadow {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
