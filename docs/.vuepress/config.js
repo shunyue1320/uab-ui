@@ -1,4 +1,6 @@
+const path = require('path')
 module.exports = {
+  base: '/uab-ui/',
   title: 'Uab-UI',
   description: '一款帮助开放者成长的 UI 库',
   head: [
@@ -11,11 +13,12 @@ module.exports = {
       {text: '文档', link: '/getting-started/'},
       {text: 'Github', link: 'https://github.com/shunyue1320/uab-ui'},
     ],
-    sidebarDepth: 2, // 将同时提取markdown中h2 和 h3 标题，显示在侧边栏上。
-    lastUpdated: 'Last Updated', // 文档更新时间：每个文件git最后提交的时间
+    sidebarDepth: 2,
+    displayAllHeaders: true,
     sidebar: [
       {
         title: '入门',
+        collapsable: false,
         children: [
           '/introduce/',
           '/install/',
@@ -26,14 +29,8 @@ module.exports = {
         title: '组件',
         collapsable: false,
         children: [
+          '/components/icon',
           '/components/button',
-          '/components/tabs',
-          '/components/input',
-          '/components/grid',
-          '/components/layout',
-          '/components/toast',
-          '/components/collapse',
-          '/components/popover',
         ]
       }
     ]
