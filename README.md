@@ -1,18 +1,19 @@
 # uab-ui
 <div align="center">
-<a href='https://github.com/shunyue1320/uab-ui'><img src='https://github.com/shunyue1320/uab-ui/blob/main/docs/.vuepress/public/uab.png' height='60' alt='Redux Logo' aria-label='redux.js.org' /></a>
+<a href='https://github.com/shunyue1320/uab-ui'><img src='https://github.com/shunyue1320/uab-ui/blob/main/docs/.vuepress/public/uab.png' height='300' alt='Redux Logo' aria-label='redux.js.org' /></a>
 <div>
 <div align="center">
-<h3>一款帮助开放者成长的UI库</h3>
-An Front-end technology sharing and exchange.
+  <h3>一款帮助开放者成长的UI库</h3>
+  
+  An Front-end technology sharing and exchange.
 
-[![](https://img.shields.io/badge/Juejin-掘金-007FFF)](https://juejin.im/user/3702810894152983)
-[![](https://img.shields.io/badge/CSDN-博客-E33E33)](https://blog.csdn.net/qq_41614928)
-[![](https://img.shields.io/badge/Zhihu-知乎-0084FF)](https://www.zhihu.com/people/shun-yue-45)
-[![](https://img.shields.io/badge/bilili-哔哩哔哩-FF69b4)](https://space.bilibili.com/475498258)
-[![](https://img.shields.io/badge/公众号-爱看编程-7ED957)](#爱看编程)
-
+  [![](https://img.shields.io/badge/Juejin-掘金-007FFF)](https://juejin.im/user/3702810894152983)
+  [![](https://img.shields.io/badge/CSDN-博客-E33E33)](https://blog.csdn.net/qq_41614928)
+  [![](https://img.shields.io/badge/Zhihu-知乎-0084FF)](https://www.zhihu.com/people/shun-yue-45)
+  [![](https://img.shields.io/badge/bilili-哔哩哔哩-FF69b4)](https://space.bilibili.com/475498258)
+  [![](https://img.shields.io/badge/公众号-爱看编程-7ED957)](#爱看编程)
 </div>
+
 
 # Installation
 npm:
