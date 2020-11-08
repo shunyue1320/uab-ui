@@ -1,6 +1,6 @@
-<div align="center">
+<p align="center">
 <a href='https://github.com/shunyue1320/uab-ui'><img src='https://github.com/shunyue1320/uab-ui/blob/main/docs/.vuepress/public/uab.png' height='300' alt='Redux Logo' aria-label='redux.js.org' /></a>
-<div>
+<p>
 <div align="center">
   <h3>一款帮助开放者成长的UI库</h3>
   
@@ -14,7 +14,7 @@
 </div>
 
 
-# Installation
+## Installation
 npm:
 ```
 npm install uab-ui
@@ -24,13 +24,13 @@ yarn:
 yarn add uab-ui
 ```
 
-# Documentation
+## Documentation
 The Redux docs are located at **https://shunyue1320.github.io/uab-ui/**:
 - [Introduction](https://shunyue1320.github.io/uab-ui/introduce/)
 - [started](https://shunyue1320.github.io/uab-ui/getting-started/)
 - [icon](https://shunyue1320.github.io/uab-ui/components/icon.html)
 
-# Use:
+## Use:
 
 **1. 全局全部引入**
 
