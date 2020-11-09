@@ -33,6 +33,7 @@ module.exports = {
           '/components/button',
           '/components/popover',
           '/components/grid',
+          '/components/tabs',
         ]
       }
     ]

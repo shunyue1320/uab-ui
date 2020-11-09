@@ -53,6 +53,7 @@
   }
 </script>
 <style lang="scss" scoped>
+  @import "../scss/variables.scss";
   $disabled-text-color: grey;
   .tabs-item {
     flex-shrink: 0;

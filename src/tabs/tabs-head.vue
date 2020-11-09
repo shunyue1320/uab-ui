@@ -35,6 +35,7 @@
   }
 </script>
 <style scoped lang="scss">
+ @import "../scss/variables.scss";
   $tab-height: 40px;
   $border-color: #ddd;
   .tabs-head {
@@ -46,7 +47,7 @@
     > .line {
       position: absolute;
       bottom: 0;
-      border-bottom: 1px solid $blue;
+      border-bottom: 3px solid $blue;
       transition: all 350ms;
     }
     > .actions-wrapper {
