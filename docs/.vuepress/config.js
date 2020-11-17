@@ -34,6 +34,7 @@ module.exports = {
           '/components/popover',
           '/components/grid',
           '/components/tabs',
+          '/components/input',
         ]
       }
     ]

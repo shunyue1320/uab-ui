@@ -39,6 +39,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+@import "../scss/variables.scss";
 .u-wrapper {
   font-size: $small-font-size;
   display: inline-flex;

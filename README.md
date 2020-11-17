@@ -24,15 +24,20 @@ yarn:
 yarn add uab-ui
 ```
 
-## Documentation
-The Redux docs are located at **https://shunyue1320.github.io/uab-ui/**:
-- [Introduction](https://shunyue1320.github.io/uab-ui/introduce/)
-- [started](https://shunyue1320.github.io/uab-ui/getting-started/)
-- [icon](https://shunyue1320.github.io/uab-ui/components/icon.html)
+## Use
+**1. 组件引入**
 
-## Use:
+```js
+import { Button } from 'uab-ui'
 
-**1. 全局全部引入**
+export default {
+  components: {
+    'u-button': Button
+  }
+}
+```
+
+**2. 全局全部引入**
 
 ```js
 import Vue from "vue";
@@ -47,19 +52,7 @@ new Vue({
 }).$mount("#app");
 ```
 
-**3. 组件引入**
-
-```js
-import { Button } from 'uab-ui'
-
-export default {
-  components: {
-    'u-button': Button
-  }
-}
-```
-
-**2. 全局部分引入**
+**3. 全局部分引入**
 
 ```js
 import Vue from "vue";
@@ -73,3 +66,10 @@ new Vue({
   render: h => h(app)
 }).$mount("#app");
 ```
+
+
+## Documentation
+The uab-ui docs are located at **[官方文档](https://shunyue1320.github.io/uab-ui/)**:
+- [Introduction](https://shunyue1320.github.io/uab-ui/introduce/)
+- [started](https://shunyue1320.github.io/uab-ui/getting-started/)
+- [icon](https://shunyue1320.github.io/uab-ui/components/icon.html)
