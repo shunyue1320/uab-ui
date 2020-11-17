@@ -3,13 +3,12 @@ title: Grid 栅格
 ---
 # Grid 栅格
 
-### 24网格
-
+#### 栅格网格
 <ClientOnly>
 <grid-1></grid-1>
 </ClientOnly>
 
-#### 示例代码：
+#### 示例代码
 ```vue
 <u-row v-for="rowIndex in [4, 3, 2, 1]" class="demoRow">
   <u-col v-for="colIndex in 24/(rowIndex * 2)" :key="colIndex" span="8">
@@ -19,11 +18,12 @@ title: Grid 栅格
 ```
 
 
+#### 栅格间隙
 <ClientOnly>
 <grid-2></grid-2>
 </ClientOnly>
 
-#### 示例代码：
+#### 示例代码
 ```vue
 <u-row v-for="rowIndex in [4, 3]" class="demoRow" gutter="10">
   <u-col v-for="colIndex in 24/(rowIndex * 2)" :key="colIndex" span="8">
@@ -32,12 +32,12 @@ title: Grid 栅格
 </u-row>
 ```
 
-
+#### 水平对齐
 <ClientOnly>
 <grid-3></grid-3>
 </ClientOnly>
 
-#### 示例代码：
+#### 示例代码
 ```vue
 <u-row class="demoRow" gutter="10">
   <u-col span="8">
@@ -61,6 +61,7 @@ title: Grid 栅格
   </u-col>
 </u-row>
 ```
+
 
 ### row 
 |参数| 说明 |  类型  | 可选值 | 默认值 |

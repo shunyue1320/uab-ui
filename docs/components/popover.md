@@ -3,7 +3,7 @@ title: Popover 弹出框
 ---
 # Popover 弹出框
 
-### click 触发预览
+#### click 触发预览
 
 <ClientOnly>
 <popover-1></popover-1>
@@ -38,7 +38,7 @@ title: Popover 弹出框
 </u-popover>
 ```
 
-### hover 触发预览
+#### hover 触发预览
 
 <ClientOnly>
 <popover-2></popover-2>

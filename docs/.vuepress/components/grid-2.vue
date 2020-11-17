@@ -27,7 +27,6 @@ export default {
 .demoCol {
   height: 50px;
   border: 1px solid #ccc;
-  background: #eee;
   display: flex;
   justify-content: center;
   align-items: center;

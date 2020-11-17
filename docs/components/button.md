@@ -7,7 +7,7 @@ title: Button 按钮
 <buttons/>
 </ClientOnly>
 
-#### 示例代码：
+#### 示例代码
 
 ```vue
 <h4>基本用法</h4>
