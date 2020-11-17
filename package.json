@@ -1,6 +1,6 @@
 {
   "name": "uab-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A UI components to help developers grow",
   "author": "shunyue1320",
   "main": "dist/uab-ui.umd.min.js",
