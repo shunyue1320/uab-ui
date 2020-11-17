@@ -1,5 +1,5 @@
 $border-color-hover: #666;
-$border-color: #999;
+$border-color: #ccc;
 $border-color-light: lighten($border-color, 30%);
 $border-radius: 4px;
 $box-shadow-color: rgba(0, 0, 0, 0.5);
@@ -54,6 +54,15 @@ $dark: #343a40;
 .box-shadow {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
+.border { border: 1px solid $border-color; }
+.border-top { border-top: 1px solid $border-color; }
+.border-left { border-left: 1px solid $border-color; }
+.border-right { border-right: 1px solid $border-color; }
+.border-bottom { border-bottom: 1px solid $border-color; }
+.border-x { border-left: 1px solid $border-color; border-right: 1px solid $border-color; }
+.border-y { border-top: 1px solid $border-color; border-bottom: 1px solid $border-color; }
+
+
 .ml { margin-left: 8px; }
 .mt { margin-top: 0.5rem; }
 .mr { margin-right: 0.5rem; }

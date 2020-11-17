@@ -2,13 +2,16 @@
   <transition name="slide">
     <div class="sider" v-if="visible">
     <slot></slot>
-      <button @click="visible=false">close</button>
+      <u-button icon="close" @click="visible=false"></u-button>
   </div>
   </transition>
 </template>
 <script>
+  import UButton from '../button/button.vue'
+
   export default {
     name: 'USider',
+    components: { UButton },
     data () {
       return {
         visible: true

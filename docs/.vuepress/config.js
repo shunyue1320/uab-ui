@@ -35,6 +35,7 @@ module.exports = {
           '/components/grid',
           '/components/tabs',
           '/components/input',
+          '/components/layout',
         ]
       }
     ]
