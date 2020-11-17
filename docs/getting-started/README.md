@@ -10,6 +10,7 @@ title:快速上手
 
 ```js
 import { Button } from 'uab-ui'
+import "uab-ui/dist/uab-ui.css"
 
 export default {
   components: {
@@ -24,7 +25,7 @@ export default {
 import Vue from "vue";
 import app from "./app.vue";
 import uab from "uab-ui";
-import "../dist/uab-ui.css"
+import "uab-ui/dist/uab-ui.css"
 
 Vue.use(uab)
 
@@ -39,7 +40,7 @@ new Vue({
 import Vue from "vue";
 import app from "./app.vue";
 import { Button } from "uab-ui";
-import "../dist/uab-ui.css"
+import "uab-ui/dist/uab-ui.css"
 
 Vue.component(Button.name, Button)
 
