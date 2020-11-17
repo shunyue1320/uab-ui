@@ -1,6 +1,6 @@
 <template>
   <div class="u-table">
-    <table border="1">
+    <table>
       <colgroup>
         <col v-for="attr in childrenProps" :key="attr.label" span="1" style="">
       </colgroup>

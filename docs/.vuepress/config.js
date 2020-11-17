@@ -36,6 +36,7 @@ module.exports = {
           '/components/tabs',
           '/components/input',
           '/components/layout',
+          '/components/table',
         ]
       }
     ]
