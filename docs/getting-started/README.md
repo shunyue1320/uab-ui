@@ -8,15 +8,23 @@ title:快速上手
 
 **1. 组件引入**
 
-```js
+```vue
+<template>
+  <div>
+    <u-button icon="favorite-filling">默认按钮</u-button>
+  </div>
+</template>
+
+<script>
 import { Button } from 'uab-ui'
-import "uab-ui/dist/uab-ui.css"
+import 'uab-ui/dist/uab-ui.css'
 
 export default {
   components: {
     'u-button': Button
   }
 }
+</script>
 ```
 
 **2. 全局全部引入**

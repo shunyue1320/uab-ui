@@ -1,5 +1,5 @@
 <p align="center">
-<a href='https://github.com/shunyue1320/uab-ui'><img src='https://github.com/shunyue1320/uab-ui/blob/main/docs/.vuepress/public/uab.png' height='200' alt='Redux Logo' aria-label='redux.js.org' /></a>
+<a href='https://github.com/shunyue1320/uab-ui'><img src='https://github.com/shunyue1320/uab-ui/blob/main/docs/.vuepress/public/uab.png?raw=true' height='200' alt='uab-ui Logo'></a>
 <p>
 <div align="center">
   <h3>一款帮助开放者成长的UI库</h3>
@@ -27,15 +27,23 @@ yarn add uab-ui
 ## Use
 **1. 组件引入**
 
-```js
+```vue
+<template>
+  <div>
+    <u-button icon="favorite-filling">默认按钮</u-button>
+  </div>
+</template>
+
+<script>
 import { Button } from 'uab-ui'
-import "uab-ui/dist/uab-ui.css"
+import 'uab-ui/dist/uab-ui.css'
 
 export default {
   components: {
     'u-button': Button
   }
 }
+</script>
 ```
 
 **2. 全局全部引入**
