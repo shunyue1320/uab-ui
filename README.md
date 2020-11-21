@@ -1,5 +1,5 @@
 <p align="center">
-<a href='https://github.com/shunyue1320/uab-ui'><img src='https://github.com/shunyue1320/uab-ui/blob/main/docs/.vuepress/public/uab.png?raw=true' height='200' alt='uab-ui Logo'></a>
+<a href='https://github.com/shunyue1320/uab-ui'><img src='https://github.com/shunyue1320/uab-ui/blob/main/docs/.vuepress/public/uab.png?raw=true' height='100' alt='uab-ui Logo'></a>
 <p>
 <div align="center">
   <h3>一款帮助开放者成长的UI库</h3>
