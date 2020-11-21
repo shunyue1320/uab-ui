@@ -2,7 +2,7 @@
 home: true
 heroImage: /uab.png
 actionText: 快速上手 →
-actionLink: /getting-started/
+actionLink: /introduce/
 features:
 - title: 学习至上
   details: 从本项目你能学习如何使用 VuePress 编写一个简单的 Vue 驱动的静态网站生成器。如何简单的编写一个的UI框架库。
